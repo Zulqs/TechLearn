@@ -9,6 +9,28 @@
         <div class="flex flex-row flex-wrap justify-between">
 
             <!-- Module Course Card -->
+            <a href="{{url('/course/html')}}"
+            class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
+                <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
+                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal HTML</h2>
+                    <img class="rounded-md" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="course_img" width="70px">
+                </div>
+                <div class="p-4">
+                    <p class="my-4">HTML adalah sebuah markup languange standard untuk halaman website. Dengan HTML kamu bisa membuat website kamu sendiri.</p>
+                    <div class="flex flex-row my-4">
+                        <div class="flex flex-col">
+                            <span>Pembelajaran</span>
+                            <span class="font-medium">Self Learning</span>
+                        </div>
+                        <div class="flex flex-col ml-6">
+                            <span>Waktu Tempuh</span>
+                            <span class="font-semibold">34 Jam</span>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
+                </div>
+            </a>
+
             <a href="#"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">

@@ -22,9 +22,79 @@ Route::get('/course/html', function () {
 Route::get('/course/html/1', function () {
     return view('course.html.1');
 })->middleware(['auth', 'verified'])->name('course.html.1');
+Route::get('/course/html/2', function () {
+    return view('course.html.2');
+})->middleware(['auth', 'verified'])->name('course.html.2');
 Route::get('/course/html/exam', function () {
     return view('course.html.exam');
 })->middleware(['auth', 'verified'])->name('course.html.exam');
+
+
+Route::get('/course/php', function () {
+    return view('course.php.index');
+})->middleware(['auth', 'verified'])->name('course.php.index');
+Route::get('/course/php/1', function () {
+    return view('course.php.1');
+})->middleware(['auth', 'verified'])->name('course.php.1');
+Route::get('/course/php/2', function () {
+    return view('course.php.2');
+})->middleware(['auth', 'verified'])->name('course.php.2');
+Route::get('/course/php/exam', function () {
+    return view('course.php.exam');
+})->middleware(['auth', 'verified'])->name('course.php.exam');
+
+Route::get('/course/kapasitor', function () {
+    return view('course.kapasitor.index');
+})->middleware(['auth', 'verified'])->name('course.kapasitor.index');
+Route::get('/course/kapasitor/1', function () {
+    return view('course.kapasitor.1');
+})->middleware(['auth', 'verified'])->name('course.kapasitor.1');
+Route::get('/course/kapasitor/2', function () {
+    return view('course.kapasitor.2');
+})->middleware(['auth', 'verified'])->name('course.kapasitor.2');
+Route::get('/course/kapasitor/exam', function () {
+    return view('course.kapasitor.exam');
+})->middleware(['auth', 'verified'])->name('course.kapasitor.exam');
+
+Route::get('/course/switch', function () {
+    return view('course.switch.index');
+})->middleware(['auth', 'verified'])->name('course.switch.index');
+Route::get('/course/switch/1', function () {
+    return view('course.switch.1');
+})->middleware(['auth', 'verified'])->name('course.switch.1');
+Route::get('/course/switch/2', function () {
+    return view('course.switch.2');
+})->middleware(['auth', 'verified'])->name('course.switch.2');
+Route::get('/course/switch/exam', function () {
+    return view('course.switch.exam');
+})->middleware(['auth', 'verified'])->name('course.switch.exam');
+
+Route::get('/course/router', function () {
+    return view('course.router.index');
+})->middleware(['auth', 'verified'])->name('course.router.index');
+Route::get('/course/router/1', function () {
+    return view('course.router.1');
+})->middleware(['auth', 'verified'])->name('course.router.1');
+Route::get('/course/router/2', function () {
+    return view('course.router.2');
+})->middleware(['auth', 'verified'])->name('course.router.2');
+Route::get('/course/router/exam', function () {
+    return view('course.router.exam');
+})->middleware(['auth', 'verified'])->name('course.router.exam');
+
+Route::get('/course/resistor', function () {
+    return view('course.resistor.index');
+})->middleware(['auth', 'verified'])->name('course.resistor.index');
+Route::get('/course/resistor/1', function () {
+    return view('course.resistor.1');
+})->middleware(['auth', 'verified'])->name('course.resistor.1');
+Route::get('/course/resistor/2', function () {
+    return view('course.resistor.2');
+})->middleware(['auth', 'verified'])->name('course.resistor.2');
+Route::get('/course/resistor/exam', function () {
+    return view('course.resistor.exam');
+})->middleware(['auth', 'verified'])->name('course.resistor.exam');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -32,7 +102,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('users', [UserController::class, 'index'])->name('users.index');
     Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
-
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

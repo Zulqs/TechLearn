@@ -8,7 +8,7 @@
   <div class="container max-w-[1110px] my-8 bg-white rounded-lg shadow-sm">
     <div class="flex flex-col p-6">
       <div class="flex flex-row border-y py-4">
-        <div class="px-3">Penjelasn mengenai Jenis-jenis Switch dan Cara kerjanya</div>
+        <div class="px-3">Penjelasan mengenai Jenis-jenis Switch dan Cara kerjanya</div>
       </div>
       <div class="py-4 border-b">
         <div class="px-3 font-bold text-3xl">Jenis-jenis Switch</div>

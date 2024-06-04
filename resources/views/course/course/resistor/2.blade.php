@@ -1,7 +1,7 @@
 <x-app-layout>
   <x-slot name="header">
     <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-      {{ __('resistor Editors') }}
+      {{ __('Resistor Editors') }}
     </h2>
   </x-slot>
 
@@ -11,11 +11,11 @@
         <div class="px-3">Mengenal FUngsi Resistor</div>
       </div>
       <div class="py-4 border-b">
-        <div class="px-3 font-bold text-3xl">FUngsi </div>
+        <div class="px-3 font-bold text-3xl">Fungsi Resistor</div>
         <ul style="list-style-type:circle;" class="px-12 py-5">
-          <div class="px-3 text-4m">Untuk mulai menggunakan resistor, bisa menggunakan cara berikut ini:
-          <li>Menemukan host web dengan dukungan resistor dan MySQL</li>
-          <li>Menginstal server web pada PC Anda sendiri, lalu menginstal resistor dan MySQL</li>
+          <div class="px-3 text-4m"> Fungsi utama resistor adalah membatasi aliran arus listrik dalam suatu sirkuit. Mereka digunakan untuk mengontrol kecepatan motor listrik, membagi tegangan, mengatur sinyal dalam amplifikasi, dan menjaga suhu dalam aplikasi daya tinggi. 
+            Resistor juga digunakan untuk melindungi komponen lain dalam sirkuit dari aliran arus yang berlebihan.
+          <img src="https://ft.unj.ac.id/elektronika/wp-content/uploads/2021/10/1K-ohm-05-5-percent.jpg" alt="Deskripsi Gambar" width="170">
         </ul>
       </div>
       <div class="py-4 border-b">

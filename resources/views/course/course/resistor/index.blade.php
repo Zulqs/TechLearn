@@ -9,7 +9,7 @@
         <div class="max-w-[1110px] mx-auto">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
-                        Mengenal PHP
+                        Mengenal Resistor
                 </div>
             </div>
         </div>
@@ -23,17 +23,17 @@
                 </svg>
                 <div class="px-3 text-2xl" >Materi</div>
             </a>
-            <a class="flex flex-row p-3 my-2 bg-btr rounded-lg" href="{{url('/course/php/1')}}">
+            <a class="flex flex-row p-3 my-2 bg-btr rounded-lg" href="{{url('/course/resistor/1')}}">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"/>
                 </svg>
-                <div class="px-3 text-lg" >Introduction</div>
+                <div class="px-3 text-lg" >Perkenalan Resistor</div>
             </a>
-            <a class="flex flex-row p-3 my-2 bg-btr rounded-lg" href="{{url('/course/php/2')}}">
+            <a class="flex flex-row p-3 my-2 bg-btr rounded-lg" href="{{url('/course/resistor/2')}}">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"/>
                 </svg>
-                <div class="px-3 text-lg" >Install</div>
+                <div class="px-3 text-lg" >Jenis-Jenis Resistor</div>
             </a>
         </div>
     </div>
@@ -47,11 +47,11 @@
                 </svg>
                 <div class="px-3 text-2xl" >Ujian</div>
             </a>
-            <a class="flex flex-row p-3 my-2 bg-btr rounded-lg" href="{{url('/course/php/exam')}}">
+            <a class="flex flex-row p-3 my-2 bg-btr rounded-lg" href="{{url('/course/resistor/exam')}}">
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"/>
                 </svg>
-                <div class="px-3 text-lg" >PHP Test</div>
+                <div class="px-3 text-lg" >Resistor Test</div>
             </a>
         </div>
     </div>

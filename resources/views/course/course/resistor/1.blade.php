@@ -19,5 +19,12 @@
           </ul>
       </div>
       <div class="py-4 border-b">
-  </div>
+
+      div class="px-3 font-bold text-3xl">Apa itu resistor?</div>
+        <ul style="list-style-type:circle;" class="px-12 py-5">
+          <li>Resistor adalah komponen pasif dalam sirkuit elektronik yang mengatur aliran arus listrik. Mereka memiliki resistansi, yang mengukur seberapa besar hambatan yang mereka tawarkan terhadap aliran arus.</li>
+          <li> Resistansi diukur dalam ohm (Ω) dan dapat bervariasi dari nilai yang sangat rendah hingga sangat tinggi tergantung pada jenis resistor dan aplikasinya.</li>
+          </ul>
+      </div>
+      <div class="py-4 border-b">
 </x-app-layout>

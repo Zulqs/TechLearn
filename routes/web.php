@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\QuizController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -112,6 +113,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/quiz/submit', [QuizController::class, 'submitQuiz'])->name('quiz.submit');
 
     Route::get('/quiz/result/pdf/{tag}', [QuizController::class, 'generatePdf'])->name('quiz.pdf');
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 
 require __DIR__ . '/auth.php';

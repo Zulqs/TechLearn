@@ -16,6 +16,17 @@
     </div>
 
     @if (Auth::user()->role == 'admin')
+    <div class="container max-w-[1110px] bg-white rounded-lg shadow-sm">
+        <div class="flex flex-col p-6">
+            <div class="flex flex-row justify-center">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <p class="py-4 font-bold text-xl text-center">Kategori Bank Soal</p>
+                    <canvas id="tagChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
     @else
     
     <div class="container max-w-[1110px] bg-white rounded-lg shadow-sm">
@@ -28,5 +39,35 @@
         </div>
     </div>
     @endif
+
+    <script>
+        var tagCounts = <?php echo json_encode($tagCounts); ?>;
+
+        // Grafik Soal Berdasarkan Tag
+        var tagCtx = document.getElementById('tagChart').getContext('2d');
+        var tagChart = new Chart(tagCtx, {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(tagCounts),
+                datasets: [{
+                    label: 'Jumlah soal',
+                    data: Object.values(tagCounts),
+                    backgroundColor: [
+                        'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)',
+                        'rgb(201, 203, 207)',
+                        'rgb(201, 123, 207)',
+                        'rgb(201, 734, 207)',
+                    ],
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1,
+                    hoverOffset: 30
+                }]
+            },
+            options: {
+            }
+        });
+    </script>
 
 </x-app-layout>

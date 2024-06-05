@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "framework": null,
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
@@ -14,7 +14,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://teklearn.vercel.app",
+        "APP_URL": "https://techlearns.vercel.app",
         "APP_KEY": "base64:unahClUZ0H+pl+HSudAdUe9brVSjNPaOb/SD8gD/9TE=",
         "APP_TIMEZONE": "Asia/Jakarta",
         "APP_CONFIG_CACHE": "/tmp/config.php",

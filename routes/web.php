@@ -110,6 +110,8 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/quiz/{tag}', [QuizController::class, 'showQuiz'])->name('quiz.show');
     Route::post('/quiz/submit', [QuizController::class, 'submitQuiz'])->name('quiz.submit');
+
+    Route::get('/quiz/result/pdf/{tag}', [QuizController::class, 'generatePdf'])->name('quiz.pdf');
 });
 
 require __DIR__ . '/auth.php';

@@ -13,9 +13,14 @@
                     <div>Total Soal: {{ $totalQuestions }}</div>
                     <div>Skor: {{ ($correctAnswers / $totalQuestions) * 100 }}%</div>
                 </div>
-                <a class="mt-5" href="{{ url('/course/' . $tag) }}">
-                    <x-primary-button >Kembali ke course {{$tag}}</x-primary-button>
-                </a>
+                <div class="flex flex-row justify-evenly my-5">
+                    <a href="{{ url('/course/' . $tag) }}">
+                        <x-primary-button >Kembali ke course {{$tag}}</x-primary-button>
+                    </a>
+                    <a href="{{ route('quiz.pdf', $tag) }}">
+                        <x-primary-button >Download Report {{$tag}}</x-primary-button>
+                    </a>
+                </div>
         </div>
     </div>
 </x-app-layout>

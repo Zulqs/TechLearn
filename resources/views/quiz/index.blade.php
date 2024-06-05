@@ -98,7 +98,7 @@
             </div>
         </div>
         @endforeach
-        <div class="container max-w-[1110px] my-8">
+        <div class="container flex flex-row justify-evenly max-w-[1110px] my-8">
             <x-primary-button class="py-3 px-6" type="submit">Kirim Jawaban</x-primary-button>
         </div>
     </form>

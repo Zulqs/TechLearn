@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -106,6 +107,9 @@ Route::middleware('auth')->group(function () {
     //Bank Soal CRUD
     Route::get('/banksoal', [QuestionController::class, 'index'])->name('banksoal.index');
     Route::resource('/banksoal', QuestionController::class);
+
+    Route::get('/quiz/{tag}', [QuizController::class, 'showQuiz'])->name('quiz.show');
+    Route::post('/quiz/submit', [QuizController::class, 'submitQuiz'])->name('quiz.submit');
 });
 
 require __DIR__ . '/auth.php';

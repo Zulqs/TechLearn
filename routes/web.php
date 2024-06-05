@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\QuestionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -95,13 +96,16 @@ Route::get('/course/resistor/exam', function () {
     return view('course.resistor.exam');
 })->middleware(['auth', 'verified'])->name('course.resistor.exam');
 
-
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('users', [UserController::class, 'index'])->name('users.index');
     Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
+    
+    //Bank Soal CRUD
+    Route::get('/banksoal', [QuestionController::class, 'index'])->name('banksoal.index');
+    Route::resource('/banksoal', QuestionController::class);
 });
 
 require __DIR__ . '/auth.php';

@@ -16,10 +16,10 @@ return new class extends Migration
             $table->string('tag');
             $table->text('quest');
             $table->string('qanswer');
-            $table->string('qa');
-            $table->string('qb');
-            $table->string('qc');
-            $table->string('qd');
+            $table->text('qa');
+            $table->text('qb');
+            $table->text('qc');
+            $table->text('qd');
             $table->timestamps();
         });
     }

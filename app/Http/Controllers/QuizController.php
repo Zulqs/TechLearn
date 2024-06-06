@@ -55,11 +55,18 @@ class QuizController extends Controller
         $correctAnswers = session('correctAnswers');
         $totalQuestions = session('totalQuestions');
         $tag = session('tag');
+        $startTime = Session::get('quiz_start_time');
+        $endTime = Session::get('quiz_end_time');
+        $durationInSeconds = $startTime->diffInSeconds($endTime);
+        $duration = gmdate('H:i:s', $durationInSeconds);
 
         $data = [
             'correctAnswers' => $correctAnswers,
             'totalQuestions' => $totalQuestions,
             'tag' => $tag,
+            'startTime' => $startTime,
+            'endTime' => $endTime,
+            'duration' => $duration
         ];
 
         $pdf = PDF::loadView('quiz.pdf', $data);

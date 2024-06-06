@@ -19,6 +19,10 @@ Route::get('/course', function () {
     return view('course');
 })->middleware(['auth', 'verified'])->name('course');
 
+Route::get('/tentang', function () {
+    return view('tentang');
+})->middleware(['auth', 'verified'])->name('tentang');
+
 Route::get('/course/html', function () {
     return view('course.html.index');
 })->middleware(['auth', 'verified'])->name('course.html.index');

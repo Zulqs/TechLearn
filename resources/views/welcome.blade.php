@@ -29,9 +29,8 @@
             <a href="#"
             class="text-3xl text-bgl font-bold my-auto w-full">TechLearn</a>
             <div class="flex flex-row justify-end w-full">
-                <a href="#"
-                class="my-auto font-medium">Job Connect</a>
-                <a href="#"
+
+                <a href="{{url('/tentang')}}"
                 class="mx-8 my-auto font-medium">Tentang TechLearn</a>
                 @if (Route::has('login'))
                     @auth
@@ -64,8 +63,6 @@
                             class="font-bold text-cente border-2 border-btr px-16 py-4 mr-3 rounded-xl text-white bg-btr">Take Action</a>
                         @endauth
                     @endif
-                    <a href="#"
-                    class="font-bold text-btr border-2 border-btr px-16 py-4 rounded-xl text-center">Konsultasi</a>
                 </div>
             </div>
             <div class="w-full">

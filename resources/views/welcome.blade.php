@@ -26,7 +26,7 @@
 <body>
     <nav class="">
         <div class="container flex flex-row justify-between max-w-[1110px] py-3">
-            <a href="#"
+            <a href="{{url('/')}}"
             class="text-3xl text-bgl font-bold my-auto w-full">TechLearn</a>
             <div class="flex flex-row justify-end w-full">
 

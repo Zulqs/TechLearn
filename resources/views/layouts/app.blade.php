@@ -14,6 +14,23 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    container: {
+                        center:true
+                    },
+                    extend: {
+                    colors: {
+                        'black': '#212427',
+                        'bgl': '#060644',
+                        'btr': '#2E2768',
+                        }
+                    }
+                }
+            }
+        </script>
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">

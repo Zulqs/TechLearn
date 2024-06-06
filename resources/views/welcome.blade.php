@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechLearn</title>
     @vite('resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center:true
+                },
+                extend: {
+                colors: {
+                    'black': '#212427',
+                    'bgl': '#060644',
+                    'btr': '#2E2768',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body>
     <nav class="">

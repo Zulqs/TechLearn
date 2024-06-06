@@ -70,8 +70,8 @@
             </div>
             <div class="w-full">
                 <img class="mx-auto" 
-                src="assets/images/person_image.webp" alt="person_image" 
-                width="440px">
+                src="https://i.ibb.co.com/nj3c9dV/Desain-tanpa-judul-4-removebg-preview.png" alt="person_image" 
+                width="700px">
             </div>
         </div>
     </section>
@@ -100,11 +100,11 @@
             <a href="#"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">Front End Engineering</h2>
-                    <img class="rounded-md" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="course_img" width="70px">
+                <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal HTML</h2>
+                    <img class="rounded-md" src="https://th.bing.com/th/id/OIP.1ixR62jPxrVMJAO8XwfSwAHaEK?w=265&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">
                 </div>
                 <div class="p-4">
-                    <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa maiores deleniti consectetur nobis et eaqure.</p>
+                    <p class="my-4">HTML adalah sebuah markup languange standard untuk halaman website. Dengan HTML kamu bisa membuat website kamu sendiri.</p>
                     <div class="flex flex-row my-4">
                         <div class="flex flex-col">
                             <span>Pembelajaran</span>
@@ -112,11 +112,10 @@
                         </div>
                         <div class="flex flex-col ml-6">
                             <span>Waktu Tempuh</span>
-                            <span class="font-semibold">34 Jam</span>
+                            <span class="font-semibold">1 Jam</span>
                         </div>
                     </div>
-                    <div class="line-through text-gray-500">Rp45.000/3 Bulan</div>
-                    <div class="text-xl font-bold text-btr">Pelajari</div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
                 </div>
             </a>
 
@@ -124,11 +123,11 @@
             <a href="#"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">Back End Engineering</h2>
-                    <img class="rounded-md" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="course_img" width="70px">
+                <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal PHP</h2>
+                    <img class="rounded-md" src="https://th.bing.com/th/id/OIP.JqDGE7w9t-dGwVXaXCjhUwHaEz?w=256&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">
                 </div>
                 <div class="p-4">
-                    <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa maiores deleniti consectetur nobis et eaqure.</p>
+                    <p class="my-4">PHP adalah bahasa skrip server, dan alat yang ampuh untuk membuat halaman Web yang dinamis dan interaktif. Dengan PHP kamu bisa membuat websitemu lebih keren.</p>
                     <div class="flex flex-row my-4">
                         <div class="flex flex-col">
                             <span>Pembelajaran</span>
@@ -136,11 +135,10 @@
                         </div>
                         <div class="flex flex-col ml-6">
                             <span>Waktu Tempuh</span>
-                            <span class="font-semibold">34 Jam</span>
+                            <span class="font-semibold">1 Jam</span>
                         </div>
                     </div>
-                    <div class="line-through text-gray-500">Rp45.000/3 Bulan</div>
-                    <div class="text-xl font-bold text-btr">Pelajari</div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
                 </div>
             </a>
 
@@ -148,59 +146,11 @@
             <a href="#"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">Full-stack Web Development</h2>
-                    <img class="rounded-md" src="https://plus.unsplash.com/premium_photo-1685086785223-485f800ce410?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="course_img" width="70px">
+                <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Kapasitor</h2>
+                    <img class="rounded-md" src="https://cerdika.com/wp-content/uploads/2020/01/Jenis-Kapasitor-760x570.jpg" alt="course_img" width="70px">
                 </div>
                 <div class="p-4">
-                    <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa maiores deleniti consectetur nobis et eaqure.</p>
-                    <div class="flex flex-row my-4">
-                        <div class="flex flex-col">
-                            <span>Pembelajaran</span>
-                            <span class="font-medium">Intensif</span>
-                        </div>
-                        <div class="flex flex-col ml-6">
-                            <span>Waktu Tempuh</span>
-                            <span class="font-semibold">3 Bulan</span>
-                        </div>
-                    </div>
-                    <div class="line-through text-gray-500">Rp6.000.000</div>
-                    <div class="text-xl font-bold text-btr">Rp2.500.000</div>
-                </div>
-            </a>
-            
-            <!-- Module Course 4 -->
-            <a href="#"
-            class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
-                <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">UI/UX Research & Design</h2>
-                    <img class="rounded-md" src="https://plus.unsplash.com/premium_photo-1685086785223-485f800ce410?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="course_img" width="70px">
-                </div>
-                <div class="p-4">
-                    <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa maiores deleniti consectetur nobis et eaqure.</p>
-                    <div class="flex flex-row my-4">
-                        <div class="flex flex-col">
-                            <span>Pembelajaran</span>
-                            <span class="font-medium">Intensif</span>
-                        </div>
-                        <div class="flex flex-col ml-6">
-                            <span>Waktu Tempuh</span>
-                            <span class="font-semibold">3 Bulan</span>
-                        </div>
-                    </div>
-                    <div class="line-through text-gray-500">Rp6.000.000</div>
-                    <div class="text-xl font-bold text-btr">Rp2.500.000</div>
-                </div>
-            </a>
-
-            <!-- Module Course 5 -->
-            <a href="#"
-            class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
-                <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">UI/UX Module Learning</h2>
-                    <img class="rounded-md" src="https://plus.unsplash.com/premium_photo-1685086785223-485f800ce410?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="course_img" width="70px">
-                </div>
-                <div class="p-4">
-                    <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa maiores deleniti consectetur nobis et eaqure.</p>
+                    <p class="my-4">Kapasitor merupakan komponen elektronik yang berfungsi untuk menyimpan muatan listrik. Dengan kapasitor muatan listrik akan aman.</p>
                     <div class="flex flex-row my-4">
                         <div class="flex flex-col">
                             <span>Pembelajaran</span>
@@ -208,11 +158,57 @@
                         </div>
                         <div class="flex flex-col ml-6">
                             <span>Waktu Tempuh</span>
-                            <span class="font-semibold">32 Jam</span>
+                            <span class="font-semibold">1 Jam</span>
                         </div>
                     </div>
-                    <div class="line-through text-gray-500">Rp45.000/3 Bulan</div>
-                    <div class="text-xl font-bold text-btr">Rp16.000/3 Bulan</div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
+                </div>
+            </a>
+            
+            <!-- Module Course 4 -->
+            <a href="#"
+            class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
+                <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
+                <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Switch</h2>
+                    <img class="rounded-md" src="https://kliniktekno.com/wp-content/uploads/adtran_netvanta.jpg" alt="course_img" width="70px">
+                </div>
+                <div class="p-4">
+                    <p class="my-4">Switch adalah perangkat dalam jaringan komputer yang digunakan untuk menghubungkan beberapa perangkat. Dengan switch perangkatmu akan selalu terhubung. </p>
+                    <div class="flex flex-row my-4">
+                        <div class="flex flex-col">
+                            <span>Pembelajaran</span>
+                            <span class="font-medium">Self Learning</span>
+                        </div>
+                        <div class="flex flex-col ml-6">
+                            <span>Waktu Tempuh</span>
+                            <span class="font-semibold">1 Jam</span>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
+                </div>
+            </a>
+
+
+            <!-- Module Course 5 -->
+            <a href="#"
+            class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
+                <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
+                <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Router</h2>
+                    <img class="rounded-md" src="https://th.bing.com/th/id/OIP.u_wqKiDVbUlnSdIHfO-AqwHaDb?w=335&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">
+                </div>
+                <div class="p-4">
+                    <p class="my-4">Router adalah perangkat untuk mentransmisikan paket data dari jaringan internet ke perangkat lain melalui proses routing.Dengan Router transmisi jaringan akan aman. </p>
+                    <div class="flex flex-row my-4">
+                        <div class="flex flex-col">
+                            <span>Pembelajaran</span>
+                            <span class="font-medium">Self Learning</span>
+                        </div>
+                        <div class="flex flex-col ml-6">
+                            <span>Waktu Tempuh</span>
+                            <span class="font-semibold">1 Jam</span>
+                        </div>
+                    </div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
                 </div>
             </a>
 
@@ -220,23 +216,21 @@
             <a href="#"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                    <h2 class="my-auto mr-4 font-bold text-2xl text-white">IoT Engineering: Smart System</h2>
-                    <img class="rounded-md" src="https://plus.unsplash.com/premium_photo-1685086785223-485f800ce410?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="course_img" width="70px">
+                <img class="rounded-md" src="https://th.bing.com/th/id/OIP.NSQ1rH_jWePU7gP9Zj3NsgHaFL?w=316&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">
                 </div>
                 <div class="p-4">
-                    <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum provident a, ipsa maiores deleniti consectetur nobis et eaqure.</p>
+                    <p class="my-4">Resistor adalah komponen pasif dalam sirkuit elektronik yang mengatur aliran arus listrik. Resistor memiliki resistansi loh. </p>
                     <div class="flex flex-row my-4">
                         <div class="flex flex-col">
                             <span>Pembelajaran</span>
-                            <span class="font-medium">Intensif</span>
+                            <span class="font-medium">Self Learning</span>
                         </div>
                         <div class="flex flex-col ml-6">
                             <span>Waktu Tempuh</span>
-                            <span class="font-semibold">3 Bulan</span>
+                            <span class="font-semibold">1 Jam</span>
                         </div>
                     </div>
-                    <div class="line-through text-gray-500">Rp6.000.000</div>
-                    <div class="text-xl font-bold text-btr">Rp2.500.000</div>
+                    <div class="text-xl font-bold text-btr py-3">Pelajari</div>
                 </div>
             </a>
         </div>
@@ -256,4 +250,5 @@
         </div>
     </footer>
 </body>
+</html>
 </html>

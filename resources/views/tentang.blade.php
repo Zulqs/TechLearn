@@ -6,6 +6,11 @@
         <div class="px-3">Tentang Techlearn</div>
       </div>
       <div class="py-4 border-b">
-        <div class="px-3 font-bold text-3xl">Apa itu HTML?</div>
-        <ul style="list-style-type:circle;" class="px-12 py-5">
-          <li>\TechLearn kepanjangan dari Technology Learn yaitu web yang menyediakan platform belajar yang interaktif dan mudah diakses oleh pengguna yang ingin meningkatkan pengetahuan maupun keterampilan tentang Teknologi. Pengguna web ini cocok untuk semua kalangan, terutama untuk pelajar maupun mahasiswa yang ingin menambah pengetahuan maupun keterampilan tentang Teknologi</li></x-slot>
+          <div class="px-3 font-bold text-3xl">Apa itu HTML?</div>
+          <ul style="list-style-type:circle;" class="px-12 py-5">
+            <li>\TechLearn kepanjangan dari Technology Learn yaitu web yang menyediakan platform belajar yang interaktif dan mudah diakses oleh pengguna yang ingin meningkatkan pengetahuan maupun keterampilan tentang Teknologi. Pengguna web ini cocok untuk semua kalangan, terutama untuk pelajar maupun mahasiswa yang ingin menambah pengetahuan maupun keterampilan tentang Teknologi</li>
+          </ul>
+      </div>
+    </div>
+  </x-slot>
+<x-app-layout>

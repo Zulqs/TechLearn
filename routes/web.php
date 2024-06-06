@@ -102,6 +102,10 @@ Route::get('/course/resistor/exam', function () {
     return view('course.resistor.exam');
 })->middleware(['auth', 'verified'])->name('course.resistor.exam');
 
+Route::get('/tentang', function () {
+    return view('tentang');
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

@@ -94,7 +94,7 @@
         <div class="flex flex-row flex-wrap justify-between">
 
             <!-- Module Course Card -->
-            <a href="#"
+            <a href="{{ route('quiz.show', 'html') }}"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
                 <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal HTML</h2>
@@ -117,7 +117,7 @@
             </a>
 
             <!-- Module Course 2 -->
-            <a href="#"
+            <a href="{{ route('quiz.show', 'php') }}"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
                 <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal PHP</h2>
@@ -140,7 +140,7 @@
             </a>
 
             <!-- Module Course 3 -->
-            <a href="#"
+            <a href="{{ route('quiz.show', 'kapasitor') }}"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
                 <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Kapasitor</h2>
@@ -163,7 +163,7 @@
             </a>
             
             <!-- Module Course 4 -->
-            <a href="#"
+            <a href="{{ route('quiz.show', 'resistor') }}"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
                 <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Switch</h2>
@@ -187,7 +187,7 @@
 
 
             <!-- Module Course 5 -->
-            <a href="#"
+            <a href="{{ route('quiz.show', 'Router') }}"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
                 <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Router</h2>
@@ -210,7 +210,7 @@
             </a>
 
             <!-- Module Course 6 -->
-            <a href="#"
+            <a href="{{ route('quiz.show', 'resistor') }}"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
                 <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Resistor</h2><img class="rounded-md" src="https://th.bing.com/th/id/OIP.NSQ1rH_jWePU7gP9Zj3NsgHaFL?w=316&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">

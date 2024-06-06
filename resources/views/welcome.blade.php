@@ -216,7 +216,7 @@
             <a href="#"
             class="flex flex-col w-[350px] border-2 rounded-lg hover:shadow-lg shadow-bgl my-5">
                 <div class="flex flex-row justify-between rounded-t-lg bg-btr p-4">
-                <img class="rounded-md" src="https://th.bing.com/th/id/OIP.NSQ1rH_jWePU7gP9Zj3NsgHaFL?w=316&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">
+                <h2 class="my-auto mr-4 font-bold text-2xl text-white">Mengenal Resistor</h2><img class="rounded-md" src="https://th.bing.com/th/id/OIP.NSQ1rH_jWePU7gP9Zj3NsgHaFL?w=316&h=180&c=7&r=0&o=5&pid=1.7" alt="course_img" width="70px">
                 </div>
                 <div class="p-4">
                     <p class="my-4">Resistor adalah komponen pasif dalam sirkuit elektronik yang mengatur aliran arus listrik. Resistor memiliki resistansi loh. </p>
@@ -250,5 +250,4 @@
         </div>
     </footer>
 </body>
-</html>
 </html>

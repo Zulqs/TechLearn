@@ -8,20 +8,6 @@
                     <a href="{{ route('dashboard') }}">
                         <img src="https://i.ibb.co.com/gZ5Ds3R/3.png" alt="Image" class="image" width="70">
                     </a>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('course')" :active="request()->routeIs('course')">
-                        {{ __('Course') }}
-                    </x-nav-link>
-                    @if (Auth::user()->role == 'admin')
-                        <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.index')">
-                            {{ __('Users') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('banksoal.index')" :active="request()->routeIs('banksoal.index')">
-                            {{ __('Bank Soal') }}
-                        </x-nav-link>
-                    @else
                 </div>
 
                 <!-- Navigation Links -->

@@ -14,6 +14,9 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <script src="https://cdn.tailwindcss.com"></script>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+        <script src="{{ asset('js/app.js') }}"></script>
         <script>
             tailwind.config = {
                 theme: {
